@@ -1,0 +1,272 @@
+/*navigation bar*/
+.logo{
+height: 50px;
+width: 50px;
+padding-left: 10px;
+margin-right: 10px;
+}
+#navigation {
+list-style-type: none;
+margin:0;
+padding:0;
+background-color: #31516d;
+display:flex;
+align-items:center;
+}
+#navigation ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+.na {padding:16px;}
+.na a {
+    color: white;
+    text-align:center;
+    text-decoration:none;
+}
+.na:hover{
+    background-color: #4e6c86;
+}
+img{width:100%}
+/*heading*/
+h1, h2 {color:#31516d;
+    font-family: Garamond, Georgia, Serif; text-align:center;
+}
+h2{
+    font-size: 30px;
+    color: #815c2b;
+}
+/*  Home */
+#news {
+    list-style-type: none;
+    
+    padding: 0;
+    background-color: #dee1df;
+}
+.newsli {
+    padding: 10px;
+}
+.newsli:hover {
+    background-color: #cbcecc;
+}
+.newsli a
+{   text-decoration:none;
+    color: #31516d;
+}
+.button {
+display:flex;
+justify-content: center;
+align-items: center;
+}
+.button-link{
+    background-color:#31516d;
+    color:white;
+    text-decoration: none;
+    padding:10px 35px;
+    display: inline-block;
+    text-align: center;
+}
+.button-link:hover{background-color:#172b3b}
+/*  Content */
+#content{margin-left: 35px;
+    margin-right:35px;
+}
+/* About Us */    
+    .bold{
+        color:#815c2b;
+        font-size: 24px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+}
+    .facultyim{
+        width:200px;
+        display: block;
+        margin-left:auto;
+        margin-right:auto;
+        border-radius: 8px}
+    .text{
+        text-align: center;
+        color:#31516d;
+    }
+    .text a{
+        color:#31516d;
+        text-decoration: none;
+
+    }
+    .text a:hover{
+        text-decoration: underline;
+    }
+/*Research*/
+table{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-collapse:collapse ;
+    width: 500px;
+    margin: auto;
+    table-layout: auto;
+}
+td, th{
+    border: 1px solid #ffffff;
+    text-align: left;
+    padding: 8px;
+}
+th{
+    background-color: #9bb8d0;
+    color:#585022;
+}
+td{
+    background-color: #dee1df;
+    color: #31516d;
+}
+td a{
+    color: #31516d;
+    text-decoration:none;
+}
+td a:hover{
+    text-decoration:underline;
+}   
+/* Student Employment */
+h3{
+    color:#684920
+ }
+ h4 {
+color:#31516d;
+ }   
+table.formonly {
+    border-collapse: collapse;
+    width: 650px;
+    margin-left: 0%;
+    margin-top: 0%;
+  }
+  td.formScore {
+    background-color:white;
+    border-bottom: 1px solid #ddd;
+  }
+  input[type=button] {
+    background-color:#31516d;
+    border: none;
+    color:white;
+    text-decoration: none;
+    padding:8px 30px;
+    /* display: inline-block; */
+    text-align: center;
+    cursor: pointer;
+    font-family: Garamond, Georgia, Serif;
+    font-size: medium;
+}
+  input[type=button]:hover{background-color:#172b3b}
+  select.semStatus {
+  padding: 6px 22px;
+  border: none;
+  background-color: #ddd;
+  cursor: pointer;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 17px;
+}
+ #formLink {
+    background-color:#31516d;
+    border: none;
+    color:white;
+    text-decoration: none;
+    padding:8px 30px;
+    /* display: inline-block; */
+    text-align: center;
+    cursor: pointer;
+    font-family: Garamond, Georgia, Serif;
+    font-size: medium;
+}
+#formLink:hover{background-color:#172b3b}
+/* Application Form */
+    #appform {
+        margin: auto;
+        width: 700px;
+    }
+    #apptable {
+        width:650px;
+    }
+    input[type=text], input[type=email] {
+        border: none;
+        border-bottom: 1px solid #585022;
+        font-size: 16px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    select.citizen {
+        background-color:#f1f1f1;
+        border-radius: 2px;
+        border: none;
+        padding:5px;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 16px;
+    }
+    input[type=date] {
+        font-size: 16px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        background-color:#f1f1f1;
+        border-radius: 2px;
+        border: none;
+        padding:5px;
+    }
+    input[type=submit] {
+        display: flex;
+        background-color:#31516d;
+        border: none;
+        color:white;
+        padding:8px 30px;
+        text-align: center;
+        cursor: pointer;
+        font-family: Garamond, Georgia, Serif;
+        font-size: medium;
+        margin:auto;     
+    }
+    input[type=submit]:hover{background-color:#172b3b}
+    .submit-wrapper {
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+/* Submission */
+.submission {    
+    width:600px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 20px;
+    margin:auto;
+    color:#31516d;
+    padding-left:40px;
+}
+#editresponse{
+    display: flex;
+    justify-content:center;
+    background-color:#31516d;
+    border: none;
+    color:white;
+    text-decoration: none;
+    padding:8px 30px;
+    text-align: center;
+    cursor: pointer;
+    font-family: Garamond, Georgia, Serif;
+    font-size: medium;
+    margin:auto;
+}
+#editresponse:hover{background-color:#172b3b}
+
+/*  Footer */
+    footer
+    {
+        background-color:#31516d;
+        padding: 10px;
+        color: #cbcecc;
+        text-align:center;
+        text-decoration:none;
+    }
+    footer hr{
+        align-self: center;
+        margin-left: 230px;
+        margin-right: 230px;
+    }
+    #footer-link {
+        text-decoration:none;
+        color:#cbcecc;
+    }
+    #footer-link:hover{
+        text-decoration: underline;
+    }
